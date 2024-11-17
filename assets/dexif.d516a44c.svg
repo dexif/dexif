@@ -43,6 +43,49 @@
        id="guide1818"
        inkscape:locked="false" />
   </sodipodi:namedview>
+  <style>
+    #layer1 {
+      perspective: 800px
+    }
+    #bltr {
+      transform-origin: 88px 105px;
+      animation-name: cckw;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+    #tlbr {
+      transform-origin: 88px 105px;
+      animation-name: ckw;
+      animation-duration: 03s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes ckw {
+
+      0% {
+        transform: rotate3d(1, 2, 1, -45deg);
+      }
+      50% {
+          transform: rotate3d(0, 0, 1, -45deg);
+      }
+      100% {
+          transform: rotate3d(0, 0, 0, 0deg);
+      }
+    }
+
+    @keyframes cckw {
+
+      0% {
+        transform: rotate3d(0, 10, 0, 300deg);
+      }
+      50% {
+        transform: rotate3d(0, 0, 1, 45deg);
+      }
+      100% {
+        transform: rotate3d(0, 0, 0, 0deg);
+      }
+    }
+  </style>
   <defs
      id="defs2" />
   <g
@@ -147,12 +190,12 @@
       <path
          style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="M 72.969226,120.49803 102.65352,90.583545"
-         id="path5898"
+         id="bltr"
          inkscape:label="BLTR" />
       <path
          style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="M 72.966055,90.677299 102.67142,120.41112"
-         id="path5900"
+         id="tlbr"
          inkscape:label="TLBR" />
     </g>
   </g>

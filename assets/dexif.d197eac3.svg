@@ -44,7 +44,7 @@
        inkscape:locked="false" />
   </sodipodi:namedview>
   <style>
-    #layer1 {
+    /* #layer1 {
       perspective: 800px
     }
     #bltr {
@@ -84,7 +84,7 @@
       100% {
         transform: rotate3d(0, 0, 0, 0deg);
       }
-    }
+    } */
   </style>
   <defs
      id="defs2" />
